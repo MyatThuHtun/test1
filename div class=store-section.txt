@@ -1,0 +1,73 @@
+<div class="store-section">
+            <div class="store-content">
+                <div class="info-column">
+                    <div class="info-wrapper">
+                        <a href="#" class="store-link" role="link" aria-label="Update">Update</a>
+                        <h1 class="store-title">Stores</h1>
+                        <p class="store-description">
+                            We're reopening select stores at limited capacity.
+                            <br />
+                            We're prioritizing the health and safety of our community
+                            <br />
+                            by increasing sanitation throughout our stores, implementing
+                            <br />
+                            contactless checkout, and providing our team with masks
+                            <br />
+                            and hand-washing breaks.
+                        </p>
+                    </div>
+                </div>
+                <div class="image-column">
+                    <img loading="lazy" src="C:\htmltesting\TEMPLATE04\MyatThu\temp\img\product\img1.jpg"
+                        class="store-image" alt="Store interior showing safety measures and social distancing setup" />
+                </div>
+            </div>
+        </div>
+.store-section {
+  margin: 0 auto;
+  margin-top: 222px;
+  width: 100%;
+  max-width: 1200px;
+}
+.store-content {
+  gap: 184px;
+  display: flex;
+}
+.info-column{
+  margin-top: 146px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  width: 368px;
+  height: 197px;
+}
+.store-link{
+  width: 66px;
+  height: 31px;
+  border-radius: 5px;
+  background-color: #dc0000;
+  color: #fff;
+  margin: auto 0;
+  text-align: center;
+  font: 400 15px Gill Sans MT, sans-serif;
+  border: none;
+  padding: 7px 10px;
+}
+.store-title{
+  font: 700 50px Montserrat, sans-serif;
+  width: 165px;
+  height: 61px;
+}
+.store-description{
+  width:368px;
+  height: 85px;
+  font: 400 15px Gill Sans MT, sans-serif;
+}
+.store-image {
+  object-fit: contain;
+  object-position: center;
+  width: 648px;
+  height: 486px;
+  flex-grow: 1;
+}
+responsive between 768px and 1300px max width767.9 px image will drop paragraph br will change image size will change

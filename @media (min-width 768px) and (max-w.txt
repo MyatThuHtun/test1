@@ -1,0 +1,5 @@
+@media (min-width: 768px) and (max-width: 1300px) {
+  .responsive-image {
+    content: url('image-between-768-1300.jpg');
+  }
+}

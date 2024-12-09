@@ -1,0 +1,62 @@
+<div class="productcontainer1">
+            <img loading="lazy" src="C:\htmltesting\TEMPLATE04\MyatThu\temp\img\product\img2.jpg" class="product-image"
+                alt="" />
+            <div class="productcontent">
+                <h1 class="product-heading">
+                    Clean products that
+                    <br>
+                    deliver better <br>solutions
+                </h1>
+                <p class="product-description">
+                    A healthier you from the inside out. We've sourced the<br>
+                    cleanest ingredients to create a line of clean skin care<br>
+                    treatments that leave you feeling your best.
+                </p>
+                <a href="#" class="shop-more-link" role="link" aria-label="Shop more products">Shop More</a>
+            </div>
+        </div>
+.productcontainer1{
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+  height: 676px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #EEF3F4;
+}
+.product-image{
+  margin: auto;
+  width: 44.7%;
+  height: 676px;
+  border: none;
+  display: flex;
+}
+.product-content{
+  display: flex;
+  width: 65%;
+}
+.product-heading {
+  color: #000;
+  font: 700 50px Montserrat, sans-serif;
+}
+.product-description{
+  width: 352px;
+  height: 69px;
+  font: 400 15px Gill Sans MT, sans-serif;
+  text-align: justify;
+}
+.shop-more-link {
+  border: 1px solid #8A5D4C;
+  margin: auto 0;
+  cursor: pointer;
+  color: #8A5D4C;
+  text-decoration: none;
+  font: 400 15px Gill Sans MT, sans-serif;
+  border-radius: 5px;
+  width: 128px;
+  height: 37.85px;
+  text-align: center;
+  padding-top: 7px;
+}
